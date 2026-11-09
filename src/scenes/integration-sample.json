@@ -1,0 +1,41 @@
+{
+  "format": "game-graphics-placement",
+  "version": 1,
+  "canvas": {
+    "width": 960,
+    "height": 540
+  },
+  "background": "REPLACE_WITH_GAME_BACKGROUND_ASSET_PATH",
+  "objects": [
+    {
+      "id": "console_1",
+      "name": "Ship console",
+      "asset": "REPLACE_WITH_GAME_ASSET_PATH/sample-console.svg",
+      "x": 480,
+      "y": 380,
+      "width": 440,
+      "height": 200,
+      "rotation": 0,
+      "layer": 1,
+      "touchZone": {
+        "type": "rectangle",
+        "x": 280,
+        "y": 290,
+        "width": 400,
+        "height": 180
+      }
+    }
+  ],
+  "hotspots": [
+    {
+      "id": "viewscreen",
+      "name": "External viewscreen",
+      "action": "inspect_view",
+      "type": "rectangle",
+      "x": 245,
+      "y": 85,
+      "width": 470,
+      "height": 180
+    }
+  ]
+}
